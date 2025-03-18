@@ -139,6 +139,11 @@ span {
   /* margin-bottom: 3rem; */
   font-family: "Saira Extra Condensed";
 }
+.skills {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
 .skills-text {
   text-transform: uppercase;
   color: #6c757d;
@@ -163,4 +168,60 @@ span {
 .work {
   display: flex;
   text-align: center;
+  gap: 10px;
+}
+.work h5 {
+  text-transform: capitalize;
+}
+.interest {
+  height: 100vh;
+  /* margin-top: 60px; */
+  /* padding: 260px 0; */
+  margin-left: 70px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1000px;
+}
+.interest h2 {
+  margin-bottom: 30px;
+  font-size: calc(1.475rem + 2.7vw);
+
+  font-family: "Saira Extra Condensed";
+}
+.interest-text p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.awards {
+  height: 100vh;
+  /* margin-top: 60px; */
+  /* padding: 260px 0; */
+  margin-left: 70px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1000px;
+}
+.awards h2 {
+  margin-bottom: 30px;
+  font-size: calc(1.475rem + 2.7vw);
+  /* margin-bottom: 3rem; */
+  font-family: "Saira Extra Condensed";
+  text-transform: uppercase;
+}
+.awards-list {
+  padding: 0 10px;
+}
+.awards-list p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+.awards-icon {
+  color: rgb(246, 214, 4);
+  display: flex;
+  gap: 7px;
+  align-items: center;
 }
